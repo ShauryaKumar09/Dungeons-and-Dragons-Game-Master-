@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "agent": ".app/agents/game_master.py:game_master"
+    },
+    "env": "../../.env"
+  }
