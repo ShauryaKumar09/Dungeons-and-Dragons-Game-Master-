@@ -6,7 +6,7 @@ SESSION = "cli-session"  # same id every turn = the campaign remembers itself
 
 def main():
     print("=" * 60)
-    print("  DUNGEONS & DRAGONS — AI Game Master")
+    print("  DUNGEONS & DRAGONS - AI Game Master")
     print("  Type your action each turn. Type 'quit' to exit.")
     print("=" * 60)
 

@@ -1,4 +1,4 @@
-# 🐉 Backend — The AI Game Master
+# Backend: The AI Game Master
 
 The Python brain of the project: a LangGraph **supervisor** agent (the Game Master) that delegates to two specialist agents and a dice tool, all running on a **local Ollama model**.
 
@@ -7,7 +7,7 @@ The Python brain of the project: a LangGraph **supervisor** agent (the Game Mast
 | Piece | File | Job |
 |---|---|---|
 | Config | `app/config.py` | Loads `.env`, builds the chat + embedding models |
-| Dice tool | `app/tools/dice.py` | Real randomness — parses `1d20+2` style notation |
+| Dice tool | `app/tools/dice.py` | Real randomness; parses `1d20+2` style notation |
 | Character tools | `app/tools/characters.py` | Rolls 4d6-drop-lowest stats, saves sheets as JSON |
 | Character agent | `app/agents/character_agent.py` | Creates/fetches characters via the tools |
 | Rules RAG | `app/rag/index.py` | Chunks + embeds `rules/srd.md` into Chroma |
